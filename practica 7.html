@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><body>
+    <h1>ESTADO</h1>
+    <h4>estudiante</h4>
+    <p id="estado">-</p>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //bifurcaciones
+        let nota = 0;
+        nota = prompt("ingrese su nota:");
+        if (nota >= 51) {
+            let paginaweb
+            document.getElementById('estado').innerHTML =
+            'estudiante esta aprobado' + nota;
+            console.log('estudiante esta aprobado');
+        } else {
+            console.error('estudiante reprobado');
+        }
+
+        
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
